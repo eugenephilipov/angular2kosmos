@@ -1,0 +1,9 @@
+,
+"exclude": [        
+    "typings/globals/jasmine",
+    "typings/globals/node",
+    "app/webapp",
+    "typings/index.d.ts",
+    "node_modules",
+    "polyfills.ts"
+]   
