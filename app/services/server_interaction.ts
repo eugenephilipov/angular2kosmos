@@ -10,8 +10,8 @@ import { server_send_player }           from './server_send_player';
 export class server_interaction {
 server_url:string;
   constructor(private http: Http) {
-    //this.server_url='http://localhost:8080/echo';
-    this.server_url='http://169.254.102.84:8080/echo';
+    this.server_url='http://localhost:8080/echo';
+    //this.server_url='http://169.254.102.84:8080/echo';
   }
 /*
   search(): Observable<server_return[]> {
